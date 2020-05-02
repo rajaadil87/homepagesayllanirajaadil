@@ -1,0 +1,280 @@
+@media only screen (max-width=960px){
+  
+}
+
+.container{
+    background-color: rgb(106, 106, 226);
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.image-hov:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.front-line{
+        font-size: 15px;
+}
+.button{
+       justify-items: center;
+}
+.container-one{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    
+}
+.menu{
+    align-items: center;
+    display: inline;
+    list-style-type:none;
+    background-color: rgb(106, 106, 226);
+    color: white;
+    text-decoration: none;
+    border-width: 20px;
+    border-radius: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.main{
+    border: salmon solid 5px;
+ }
+
+.marquee-info{
+    background-color: blue;
+    height: 40px;  
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    width: 80%;
+
+}
+.container-2{
+    background-color: whitesmoke;
+     display: flex;
+    flex-direction: column;
+    align-items: center;      
+}
+.first-letter{
+    color: blue;
+    position: relative;
+    right: 100px;
+
+}
+.second-letter{
+    color: chartreuse;
+    position: relative;
+    bottom: 80px;
+    left: 25px;
+}
+.second-logo{
+    position: relative;
+    bottom: 100px;
+    right:20px;
+    border-radius: 50px;
+}
+.intro{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    flex-wrap: wrap;
+}
+
+.container-3{
+    background-color: rgb(28, 28, 189);
+    min-width: 320px;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 15x;
+    font-weight: bold;
+}
+.food,.familyadoption,.medical,.education{
+       text-align: center;
+         color: white;    
+}
+
+.span-one{
+    color: green;
+}
+
+.word{
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+}
+
+.word-logo{
+    border-radius: 50px;
+}
+.word-one{
+    color: blue;
+    font-size: 40px;
+}
+.word-two{
+    color: green;
+    font-size: 40px;
+}
+.container-4{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.container-5{
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;  
+
+}
+.first-box,.second-box,.third-box,.fourth-box,.fifth-box,.sixth-box{
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-between;
+    height: 130px;
+    max-height: 130px;
+    width: 330px;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    box-shadow: 10px 20px 20px #a5a5a5; 
+}
+.boxes{
+    list-style-type:none;
+}
+
+.news{
+     font-size: 10px;
+    align-items: justify;
+
+}
+.container-6{
+ background-color: white;
+ color: rgb(50, 50, 201);
+ display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+  font-size: 10px;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.title-one,.title-two,.title-three,.title-four{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    color: rgb(99, 99, 192); 
+    background-color: whitesmoke;
+    width: 360px;
+    list-style-type: none;
+}
+.container-7{
+     background-color: white;
+    display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   justify-content: space-around;
+
+}
+.title-five{
+     height: 150px;
+     background-color: white;
+     list-style-type: none;
+     margin-right: 100px;
+}
+.words{
+    text-align: center;
+    font-size: 40px;
+    list-style-type: none;
+}
+.fst-word{
+    color: blue;
+    text-decoration: none;
+}
+.sed-word{
+    color: green  
+}
+.sed-logo{
+    border-bottom: 5px blue;
+    border-radius: 50px;
+    padding-bottom: 20px;
+}
+.images-all{
+    text-align: center;
+    flex-wrap: wrap;
+}
+.saylani-images:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+.adres{
+    background-color: rgb(63, 59, 59);
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: space-between;
+    height: 400px;
+}
+.adres-main{
+    padding-left: 100px;
+    color: rgb(131, 118, 118);
+    justify-content: space-around;
+    
+}
+.links{
+      border-bottom: 1px solid rgb(20, 184, 61);
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    justify-content: space-around;
+  
+}
+.contect-with-us{
+    color: white;
+    padding-right: 50px;
+    justify-content: space-around;
+}
+.end-line{
+    background-color: rgb(106, 106, 226); 
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgba(37, 238, 37, 0.808);
+}
+.top-up{
+    background-color: transparent;
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+
+
+
+
